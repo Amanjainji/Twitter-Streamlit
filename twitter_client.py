@@ -1,8 +1,11 @@
 import re
 import joblib
 import tweepy
+import nltk
 from nltk.stem.porter import PorterStemmer
 from nltk.corpus import stopwords
+
+nltk.download('stopwords')  # Ensure it's available
 
 class TwitterClient(object):
     '''
