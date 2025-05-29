@@ -22,7 +22,7 @@ def predict_sentiment(text):
     return model.predict(vect)[0]  # 1 = positive, 0 = negative
 
 # Streamlit UI
-st.title("📊 Twitter Sentiment Analysis")
+st.title("Twitter Sentiment Analysis")
 st.write("Analyze the public sentiment on Twitter about any topic!")
 
 topic = st.text_input("Enter a topic (e.g., 'AI', 'Elections', 'Bitcoin')")
