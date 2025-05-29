@@ -5,7 +5,6 @@ nltk
 joblib
 numpy
 pandas
-re
 nltk.corpus 
 nltk.stem.porter 
 pickle
