@@ -1,0 +1,11 @@
+streamlit
+tweepy
+scikit-learn
+nltk
+joblib
+numpy
+pandas
+re
+nltk.corpus 
+nltk.stem.porter 
+pickle
