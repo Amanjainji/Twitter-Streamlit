@@ -5,6 +5,3 @@ nltk
 joblib
 numpy
 pandas
-nltk.corpus 
-nltk.stem.porter 
-pickle
