@@ -13,7 +13,7 @@ class TwitterClient(object):
     '''
     def __init__(self):
         # Initialize Twitter API v2 Client with your Bearer Token
-        self.client = tweepy.Client(bearer_token='AAAAAAAAAAAAAAAAAAAAAPBU2AEAAAAAb4QOXFTX7Kk%2BIKVtMfRgsG3DihY%3DH3yCpE1T2XXrGoAPJM1W6Uqvvj27n269mb0Z8kEky4sBUbVtvr')
+        self.client = tweepy.Client(bearer_token='Your Bearer Token')
 
         # Load trained sentiment analysis model and vectorizer
         self.model = joblib.load('sentiment_model.pkl')
